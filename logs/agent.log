@@ -1,0 +1,36 @@
+2025-09-16 15:38:33,651 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-09-16 15:38:33,657 - livekit.agents - DEV - Watching C:\Users\-THE-GREAT-\Downloads\SIH-VoiceAgent
+2025-09-16 15:38:37,437 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-09-16 15:38:37,458 - livekit.agents - INFO - starting worker
+2025-09-16 15:38:37,462 - livekit.agents - INFO - [1msee tracing information at http://localhost:55856/debug[0m
+2025-09-16 15:38:40,542 - livekit.agents - INFO - registered worker
+2025-09-16 15:39:23,496 - livekit.agents - INFO - received job request
+2025-09-16 15:39:23,754 - livekit.agents - INFO - initializing job runner
+2025-09-16 15:39:23,755 - livekit.agents - INFO - job runner initialized
+2025-09-16 15:39:23,755 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-09-16 15:39:23,802 - mailminds-voice-agent - INFO - [START] Starting Enhanced MailMinds Voice Agent
+2025-09-16 15:39:23,803 - mailminds-voice-agent - INFO - Language: en-US
+2025-09-16 15:39:23,803 - mailminds-voice-agent - INFO - Model: gemini-live-2.5-flash-preview (Latest Gemini Live)
+2025-09-16 15:39:23,805 - mailminds-voice-agent - INFO - Voice: Aoede
+2025-09-16 15:39:23,805 - mailminds-voice-agent - INFO - User ID: livekit_user_aba8eb95
+2025-09-16 15:39:23,806 - mailminds-voice-agent - INFO - [PROFILE] Created new user profile: livekit_user_aba8eb95
+2025-09-16 15:39:23,810 - mailminds-voice-agent - INFO - [OK] Gemini Live API session created successfully
+2025-09-16 15:39:26,852 - mailminds-voice-agent - INFO - [OK] Connected to LiveKit room
+2025-09-16 15:39:26,852 - mailminds-voice-agent - WARNING - [WARN] Could not enable noise cancellation: 'LocalParticipant' object has no attribute 'set_microphone_track'
+2025-09-16 15:39:26,853 - mailminds-voice-agent - INFO - [INFO] Continuing without hardware noise cancellation
+2025-09-16 15:39:27,013 - livekit.plugins.google - DEBUG - connecting to Gemini Realtime API...
+2025-09-16 15:39:27,021 - mailminds-voice-agent - INFO - Enhanced MailMinds Donna is ready for voice interaction!
+2025-09-16 15:39:27,022 - mailminds-voice-agent - INFO - [INFO] Noise cancellation: Gemini Live API + LiveKit BVC
+2025-09-16 15:39:27,022 - mailminds-voice-agent - INFO - [STATS] Session Stats: 0 active sessions
+2025-09-16 15:39:27,963 - google_genai.live - INFO - b'{\n  "setupComplete": {}\n}\n'
+2025-09-16 15:39:28,697 - livekit.agents - DEBUG - start reading stream
+2025-09-16 15:41:04,588 - livekit.plugins.google - WARNING - truncate is not supported by the Google Realtime API.
+2025-09-16 15:41:16,898 - livekit.agents - DEBUG - stream closed
+2025-09-16 15:41:16,898 - livekit.agents - DEBUG - closing agent session due to participant disconnect
+2025-09-16 15:41:16,906 - livekit.plugins.google - DEBUG - send task finished.
+2025-09-16 15:41:17,266 - livekit.agents - DEBUG - session closed
+2025-09-16 15:41:28,487 - livekit.agents - INFO - shutting down worker
+2025-09-16 15:41:28,535 - livekit.agents - DEBUG - shutting down job task
+2025-09-16 15:41:28,537 - livekit.agents - DEBUG - job exiting
+2025-09-16 15:41:28,597 - livekit.agents - DEBUG - http_session(): closing the httpclient ctx
+2025-09-16 15:41:28,598 - livekit.agents - DEBUG - http_session(): creating a new httpclient ctx
